@@ -1,0 +1,72 @@
+/* WeatherApp.css */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://pngtree.com/back/down?id=MTIyOTQ1Ng==&type=1&time=1702027866&token=MGZjYWNlNWIzODI4YmQyY2YzN2Q3NjZhNTNjMGFhM2I=&t=0');
+    background-size: cover;
+    background-position: center;
+    
+  
+  }
+  
+.box {
+     max-width: 500px;
+    margin: 50px auto;
+    height: 500px;
+
+    padding: 20px;
+    background-color: rgb(192, 229, 243);
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  input {
+    width:50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  h2{
+   margin: 0px;
+   padding: 0px;
+   margin-left: 10px;
+ 
+  
+
+  }
+  .text{
+    width: 30%;
+    margin: 0px;
+    padding: 20px;
+    margin-left: 10px;
+    color: navy;
+  }
+  .weatherText{
+    margin-top: 30px;
+  }
+  input:focus {
+    outline: none;
+    border-color: #4caf50; 
+  }
+  button{
+          margin-left: 10px;
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        border: 2px solid #4caf50; /* Green border color */
+        color: #fff; /* Text color */
+        background-color: #4caf50; /* Green background color */
+        border-radius: 4px; /* Rounded corners */
+        transition: background-color 0.3s ease; /* Smooth transition on hover */
+      }
+  
+
+  
+ 
